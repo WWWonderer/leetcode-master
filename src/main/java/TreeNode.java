@@ -11,4 +11,20 @@ public class TreeNode {
         this.left = left;
         this.right = right;
     }
+    @Override
+    public boolean equals(Object otherTreeNode) {
+        if(otherTreeNode == this) return true;
+        if(otherTreeNode == null || this == null) return false;
+        if(otherTreeNode.getClass() != this.getClass()) return false;
+        final TreeNode other = (TreeNode) otherTreeNode;
+        boolean leftEq = true;
+        boolean rightEq = true;
+        if(this.left != null) {
+            leftEq = this.left.equals(other.left);
+        }
+        if(this.right != null) {
+            rightEq = this.right.equals(other.right);
+        }
+        return (this.val == other.val) && leftEq && rightEq;
+    } 
 }
