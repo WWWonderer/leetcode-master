@@ -1,8 +1,6 @@
 package src.main.java;
 import java.util.List;
 import java.util.ArrayList;
-import java.util.ArrayDeque;
-import java.util.Queue;
 
 public class Lc_0572 {
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
