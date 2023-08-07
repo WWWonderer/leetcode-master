@@ -2,11 +2,11 @@ package src.test.java;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import src.main.java.TreeNode;
-import src.main.java.Lc_0111;
+import src.main.java.Lc_0111_minDepth;
 
 public class Lc_0111_test{
 
-    Lc_0111 lc_0111 = new Lc_0111();
+    Lc_0111_minDepth lc_0111 = new Lc_0111_minDepth();
 
     @Test
     void testcase1(){

@@ -1,6 +1,6 @@
 package src.main.java;
 
-public class Lc_0111 {
+public class Lc_0111_minDepth {
     public int minDepth(TreeNode root) {
         if(root == null) return 0;
         

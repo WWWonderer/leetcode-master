@@ -2,14 +2,14 @@ package src.test.java;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import src.main.java.TreeNode;
-import src.main.java.Lc_0102;
+import src.main.java.Lc_0102_levelOrder;
 import java.util.List;
 import java.util.ArrayList;
 
 
 public class Lc_0102_test{
 
-    Lc_0102 lc_0102 = new Lc_0102();
+    Lc_0102_levelOrder lc_0102 = new Lc_0102_levelOrder();
 
     @Test
     void testcase1(){

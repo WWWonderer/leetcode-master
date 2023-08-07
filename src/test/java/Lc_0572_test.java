@@ -2,11 +2,11 @@ package src.test.java;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import src.main.java.TreeNode;
-import src.main.java.Lc_0572;
+import src.main.java.Lc_0572_isSubTree;
 
 public class Lc_0572_test{
 
-    Lc_0572 lc_0572 = new Lc_0572();
+    Lc_0572_isSubTree lc_0572 = new Lc_0572_isSubTree();
 
     @Test
     void testcase1(){

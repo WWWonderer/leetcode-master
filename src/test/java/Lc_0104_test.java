@@ -2,11 +2,11 @@ package src.test.java;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import src.main.java.TreeNode;
-import src.main.java.Lc_0104;
+import src.main.java.Lc_0104_maxDepth;
 
 public class Lc_0104_test{
 
-    Lc_0104 lc_0104 = new Lc_0104();
+    Lc_0104_maxDepth lc_0104 = new Lc_0104_maxDepth();
 
     @Test
     void testcase1(){

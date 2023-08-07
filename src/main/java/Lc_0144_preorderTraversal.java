@@ -2,7 +2,7 @@ package src.main.java;
 import java.util.List;
 import java.util.ArrayList;
 
-public class Lc_0144 {
+public class Lc_0144_preorderTraversal {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
         preorderTraversalHelper(root, ans);

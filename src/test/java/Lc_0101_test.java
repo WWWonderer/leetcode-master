@@ -2,11 +2,11 @@ package src.test.java;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import src.main.java.TreeNode;
-import src.main.java.Lc_0101;
+import src.main.java.Lc_0101_isSymmetric;
 
 public class Lc_0101_test{
 
-    Lc_0101 lc_0101 = new Lc_0101();
+    Lc_0101_isSymmetric lc_0101 = new Lc_0101_isSymmetric();
 
     @Test
     void testcase1(){

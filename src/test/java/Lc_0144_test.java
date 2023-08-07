@@ -2,14 +2,14 @@ package src.test.java;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import src.main.java.TreeNode;
-import src.main.java.Lc_0144;
+import src.main.java.Lc_0144_preorderTraversal;
 import java.util.List;
 import java.util.ArrayList;
 
 
 public class Lc_0144_test{
 
-    Lc_0144 lc_0144 = new Lc_0144();
+    Lc_0144_preorderTraversal lc_0144 = new Lc_0144_preorderTraversal();
 
     @Test
     void testcase1(){

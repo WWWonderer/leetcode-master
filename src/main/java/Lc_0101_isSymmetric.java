@@ -1,6 +1,6 @@
 package src.main.java;
 
-public class Lc_0101 {
+public class Lc_0101_isSymmetric {
     public boolean isSymmetric(TreeNode root) {
         if(root == null) return true;
         return compare(root.left, root.right);

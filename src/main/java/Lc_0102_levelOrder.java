@@ -2,7 +2,7 @@ package src.main.java;
 import java.util.List;
 import java.util.ArrayList;
 
-public class Lc_0102 {
+public class Lc_0102_levelOrder {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<>();
         levelOrderHelper(root, ans, 0);

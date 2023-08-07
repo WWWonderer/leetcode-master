@@ -2,7 +2,7 @@ package src.main.java;
 import java.util.List;
 import java.util.ArrayList;
 
-public class Lc_0572 {
+public class Lc_0572_isSubTree {
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
         List<List<TreeNode>> levels = levelOrderTraverse(root);
         for(int i = levels.size() - 1; i >= 0; i--) {

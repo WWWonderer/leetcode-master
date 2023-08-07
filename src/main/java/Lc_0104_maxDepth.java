@@ -1,6 +1,6 @@
 package src.main.java;
 
-public class Lc_0104 {
+public class Lc_0104_maxDepth {
     public int maxDepth(TreeNode root) {
         // base case
         if(root == null) return 0;
